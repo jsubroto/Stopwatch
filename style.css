@@ -1,0 +1,44 @@
+body {
+	margin-top: 80px;
+	background-color: #00AA7C;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	color: white;
+	text-align: center;
+}
+
+li {
+	vertical-align:top; 
+	display: inline-block;
+	margin-right: 10px;
+	position: relative;
+	left: -15px;
+}
+
+#output {
+	color: white;
+	width: 400px;
+	height: 120px;
+	font-size: 100px;
+	text-align: center;
+	background-color: #00AA8D;
+	border-radius: 60px;
+	border: 10px solid #008975;
+	margin: 20px auto;
+}
+
+button {
+    border-radius: 10px;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    color: white;
+    font-size: 20px;
+    background: #00AA8D;
+    padding: 15px 20px 10px 20px;
+    border: 4px solid #008975;
+    text-align: center;
+    display: none;
+}
+
+/* Only button to be shown by default */
+#startPause {
+	display: inline;
+}
